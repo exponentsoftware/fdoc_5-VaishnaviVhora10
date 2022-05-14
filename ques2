@@ -1,0 +1,19 @@
+1.What is the difference between forEach, map, filter and reduce ? Explain these using your own words
+ =>forEach, map, reduce and filter all method are basically use to itterate over an array, but they are used in different senarious.
+forEach is used when we simply want to itterate an array and want to get the same elements. map is used when we want to itterate over an array and want to get a new array with the help of simpele operation. filter is use when want to check some condition and we use reduce when we need to perfom some operation on the element of array and pass the result of one itteration to another itteration.
+
+2. Explain the difference between function declaration and arrow function ?
+=>in normal function return statement is necessary, in arrow function we can skip return statement.
+we cannot access arrow function arguments. new operator cannot be used with arrow function. this operator cannot be used in arrow function.
+
+3. Explain the difference between find and findIndex ?
+=>find is a method that returns the 1st element and and findIndex returns the index of element.
+
+4. If you like to filter out one object element in an array which method do you like to use: filter or find ? Explain
+=> i will use filter, as it is easy to filter out element with filter method 
+
+5. Explain the difference of var, let and const when we declare a variable ?
+=> var:- its value can be changed and its scope throughout the program.
+   let:- its value can be changed and its scope is only within the loop.
+   const:- its value cannot be changed and its scope is only within the loop. 
+   
